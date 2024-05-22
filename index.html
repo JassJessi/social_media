@@ -26,8 +26,10 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="#">
-            <h1 class="logo">logo</h1>
+        <!--Redirecionar para a página inicial-->
+        <a href="https://www.instagram.com/ssoa.res18/" target="_blank"> <!--Substituir o link pelo da página-->
+            <img class="logo" src="./src/imagens/logo_white.png">
+            <!-- <h1 class="logo">logo</h1> -->
         </a>
 
         <nav class="menu">
@@ -36,8 +38,12 @@
                     <a href="#projetos">Meus projetos</a>
                 </li>
                 <li>
-                    <a href="#agenda">Agendar</a>
+                    <button><a href="#agenda" target="_blank">Agendar</a></button>
                 </li>
+
+                <div>
+                    <button onclick="menuShow()"><img class="icon" src="assests/imagens/menu_whit_36dp.svg"> </button>
+                  </div>
             </ul>
         </nav>
     </header>
@@ -77,8 +83,8 @@
                 </li>
                 <li>
                 <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" title="Enviar mensagem" target="_blank"> 
-                        <i class="fab fa-e.mail"></i>
-                    </a>
+                    <i class="fab fa-envelope"></i> <!--concertar icon que não esta aparecendo-->
+                </a>
                 </li>
                     <a href="https://www.facebook.com/profile.php?id=100092451158247" title="Ir para o Facebook" target="_blank"> 
                         <i class="fab fa-facebook"></i>
@@ -161,6 +167,8 @@
 
     </section>
     <script src="./src/js/index.js"></script>
+    <script src="assets/js/script.js"></script>
+
     
 </body>
 
