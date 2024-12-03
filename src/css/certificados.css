@@ -53,22 +53,20 @@ body{
     color: #ffff;
 }
 
+/*
 .pdf-preview {
     display: flex;
     align-items: center;
     margin-top: 10px;
     font-size: 14px;
-    color: #007BFF; /* Azul amigável para links */
+    color: #007BFF; /* Azul amigável para links 
 }
+*/
 
 .pdf-preview img {
     width: 24px;
     height: 24px;
     margin-right: 8px;
-}
-
-.pdf-preview span {
-    text-decoration: underline;
 }
 
 .container-projetos {
